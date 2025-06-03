@@ -1,0 +1,298 @@
+/*diseño de index/productos para 375px*/
+@media (min-width: 375px) {
+
+    .header-idx {
+        background-color: darksalmon;
+    }
+
+    .carousel-inner {
+        width: 100%;
+        height: auto;
+        background-color: rosybrown;
+        margin-top: .9375rem;
+    }
+
+    .carousel-item img {
+        height: 15.625rem;
+        width: 15.625rem;
+        object-fit: contain fill;
+    }
+
+    .container-fluid {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: .9375rem;
+
+    }
+
+    .container-sm {
+        box-sizing: border-box;
+        box-shadow: 0px 0px 10px 0px black;
+        width: 9.375rem;
+        height: 15.625rem;
+        text-align: center;
+        margin-top: .9375rem;
+        background-color: aliceblue;
+    }
+
+    .container-sm img {
+        width: 5rem;
+        height: 5rem;
+        margin-top: .3125rem;
+    }
+
+    .container-sm p {
+        justify-content: center;
+        color: rgb(0, 0, 0);
+        letter-spacing: .125rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    footer {
+        margin-top: 6.25rem;
+        background-color: darksalmon;
+    }
+}
+
+/*diseño de index/productos para 768px*/
+@media (min-width: 768px) {
+
+
+    .carousel-inner {
+        width: 100%;
+        height: auto;
+        background-color: rosybrown;
+        margin-top: .9375rem;
+    }
+
+    .carousel-item img {
+        height: 15.625rem;
+        width: 15.625rem;
+        object-fit: contain fill;
+    }
+
+    .container-fluid {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: .9375rem;
+
+    }
+
+    .container-sm {
+        box-sizing: border-box;
+        box-shadow: 0px 0px 10px 0px black;
+        width: 15.625rem;
+        height: 18.75rem;
+        text-align: center;
+        margin-top: .9375rem;
+     
+    }
+
+    .container-sm img {
+        width: 6.25rem;
+        height: 6.25rem;
+    }
+
+    .container-sm p {
+        justify-content: center;
+        color: rgb(0, 0, 0);
+        letter-spacing: .125rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    footer {
+        margin-top: 6.25rem;
+        background-color: darksalmon;
+    }
+}
+
+/*diseño de index/productos para 1024px*/
+@media (min-width: 1024px) {
+
+    .carousel-inner {
+        width: 100%;
+        height: 31.25rem;
+        background-color: rosybrown;
+        margin-top: .9375rem;
+    }
+
+    .carousel-item img {
+        height: 31.25rem;
+        width: 15.625rem;
+        object-fit: contain fill;
+    }
+
+    .container-fluid {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: .9375rem;
+
+    }
+
+    .container-sm {
+        box-sizing: border-box;
+        border-radius: .9375rem;
+        box-shadow: 0px 0px 10px 0px black;
+        width: 12.5rem;
+        height: 18.75rem;
+        text-align: center;
+        margin: 1.5625rem;
+
+    }
+
+    .container-sm img {
+        width: 5rem;
+        height: 5rem;
+        margin-top: 1.5625rem;
+    }
+
+    .container-sm p {
+        justify-content: center;
+        color: rgb(0, 0, 0);
+        letter-spacing: .125rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    footer {
+        margin-top: 6.25rem;
+    }
+}
+
+
+/* diseño de forms "mobile-first" */
+body {
+    background-color: darksalmon;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #343a40;
+    text-align: center;
+    list-style-type: none;
+}
+
+.main-title {
+    color: #007bff;
+    font-size: 2rem;
+    margin-bottom: 1rem !important;
+}
+
+.slogan-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.card {
+    border-radius: 15px;
+    border: none;
+}
+/* diseño forms para pantallas de 576px*/
+@media (max-width: 575.98px){
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .main-title {
+        font-size: 1.8rem;
+        margin-bottom: 0.8rem !important;
+    }
+
+    .slogan-text {
+        font-size: 0.9rem;
+    }
+
+    .card {
+        padding: 1.5rem !important;
+    }
+
+    .form-label {
+        font-size: 0.95rem;
+    }
+
+    .form-control {
+        font-size: 0.9rem;
+        padding: 0.6rem 0.75rem;
+    }
+
+    .btn-lg {
+        font-size: 1rem;
+        padding: 0.75rem 1rem;
+    }
+}
+
+/* diseño forms para pantallas de 768px*/
+@media (min-width: 768px) {
+    .main-title {
+        font-size: 2.8rem;
+        /* Aumenta el tamaño del título */
+        margin-bottom: 2rem !important;
+    }
+
+    .slogan-text {
+        font-size: 1.2rem;
+    }
+
+    .card {
+        padding: 2.5rem !important;
+        /* Más padding en tablets */
+    }
+
+    .form-label {
+        font-size: 1rem;
+    }
+
+    .form-control {
+        font-size: 0.95rem;
+        padding: 0.75rem 1rem;
+    }
+}
+
+
+/* diseño forms para pantallas de 1024px */
+@media (min-width: 992px) {
+
+    .main-title {
+        font-size: 3.5rem;
+
+    }
+
+    .slogan-text {
+        font-size: 1.3rem;
+    }
+
+    .card {
+        padding: 3rem !important;
+
+    }
+
+    .form-label {
+        font-size: 1.05rem;
+    }
+
+    .form-control {
+        font-size: 1rem;
+        padding: 0.8rem 1rem;
+    }
+}
+
+/* botón de enviar */
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/*diseño de nosotros*/
+
+.container-xl{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 0px black;
+    text-align: center;
+    letter-spacing: .125rem;
+}
